@@ -5,8 +5,46 @@ form{
 span{
     color: #065BDb;
 }
-
-
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: #070939;
+}
+.search{
+    height: 30px;
+    width: 600px;
+    border-radius: 0.5rem;
+    padding: 20px;
+    outline: none;
+    background-color: #d9d9d9;
+    color: rgb(80, 79, 79);
+}
+nav button{
+    height: 30px;
+    width: 8rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+nav .btn-connexion:hover{
+    background-color: #0b0f8a;
+    transition-duration: 300ms;
+    color: white;
+}
+nav .btn-search:hover{
+    background-color: #515457;
+    color: white;
+    transition-duration: 300ms;
+}
+nav .btn-connexion{
+    background-color: #95c3f0;
+    transition-duration: 300ms;
+    color: white;
+}
+nav .btn-search{
+    background-color: #d6d7d8;
+    color: black;
+    transition-duration: 300ms;
+}
 
 /* Styles pour les écrans de téléphone */
 @media only screen and (max-width: 768px) {

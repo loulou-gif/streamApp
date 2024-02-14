@@ -1,11 +1,11 @@
 import React from 'react';
-// import Connexion from '../../Components/Connexion';
-import Inscription from './Inscription';
+import NavBar from '../../Components/Navbar';
+// import Inscription from './Inscription';
 
 const Index = () => {
     return (
         <div>
-            {/* <Inscription/>  */}
+            <NavBar/>
         </div>
     );
 };
