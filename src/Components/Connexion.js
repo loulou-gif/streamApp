@@ -11,7 +11,7 @@ const Connexion = () => {
                     <form className='connexion-form flex-col  m-10 w-10/12'>
                     <h3>Pas de compte?<span>S'inscrire</span> </h3>
                         <input type='text' className='mt-5 mb-5 pl-5 p-2 rounded-xl' placeholder="Nom d'utilisateur"/>
-                        <input type='text' className=' h-[40px] w-[342]  mb-5 pl-5 p-2 rounded-xl' placeholder='Mot de passe'/>
+                        <input type='password' className=' h-[40px] w-[342]  mb-5 pl-5 p-2 rounded-xl' placeholder='Mot de passe'/>
                         <button className='boutton bg-blue-700 text-white rounded-xl h-[40px] w-[342] ' >Se connecter</button>
                     </form>
                 </div>
