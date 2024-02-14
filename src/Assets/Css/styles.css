@@ -5,3 +5,13 @@ form{
 span{
     color: #065BDb;
 }
+
+
+
+/* Styles pour les écrans de téléphone */
+@media only screen and (max-width: 768px) {
+    .sect-inscription .img{
+        display: none;    
+    }
+  }
+  

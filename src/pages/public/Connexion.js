@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Assets/Css/styles.css'
+import '../../Assets/Css/styles.css'
 
 const Connexion = () => {
     return (

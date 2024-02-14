@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Index from './public/Index';
+import Index from './Index';
 
 const Layout = () => {
     return (

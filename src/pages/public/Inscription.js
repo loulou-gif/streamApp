@@ -1,9 +1,10 @@
 import React from 'react';
-import '../Assets/Css/styles.css'
+
+import '../../Assets/Css/styles.css'
 
 const Inscription = () => {
     return (
-        <section className='flex'>
+        <section className='sect-inscription flex'>
         <div className='img w-3/5 bg-blue-500 h-screen'></div>
         <div className='flex justify-center items-center pt-10  w-2/5'>
             <div className='form flex items-center h-[605px]  flex-col'>
