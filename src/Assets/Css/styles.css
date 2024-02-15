@@ -45,6 +45,10 @@ nav .btn-search{
     color: black;
     transition-duration: 300ms;
 }
+.a-la-une{
+    position: relative;
+    top: 50px
+}
 
 /* Styles pour les écrans de téléphone */
 @media only screen and (max-width: 768px) {
