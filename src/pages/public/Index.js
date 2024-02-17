@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../../Components/Navbar';
 import AlaUne from '../../Components/AlaUne';
+import Animes from '../../Components/Animes';
 // import Inscription from './Inscription';
 
 const Index = () => {
@@ -8,6 +9,7 @@ const Index = () => {
         <div>
             <NavBar/>
             <AlaUne />
+            <Animes/>
         </div>
     );
 };

@@ -47,8 +47,40 @@ nav .btn-search{
 }
 .a-la-une{
     position: relative;
-    top: 50px
+    top: 50px;
+    width: 95%;
 }
+.box-anime{
+    position: relative;
+    top: 150px;
+}
+.title{
+    position: relative;
+    top: 225px
+}
+/* 
+.box-anime {
+    display: flex;
+    flex-wrap: wrap; /* Permettre le passage à la ligne */
+    /* justify-content: space-evenly; Pour répartir les éléments sur les lignes */
+    /* align-items: center; */
+    /* border: 1px solid black; */
+    /* padding-bottom: 10px; */
+/* } */ 
+/* 
+.mini-box {
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+
 
 /* Styles pour les écrans de téléphone */
 @media only screen and (max-width: 768px) {

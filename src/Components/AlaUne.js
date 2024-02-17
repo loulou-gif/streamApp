@@ -10,8 +10,8 @@ const AlaUne = () => {
         slidesToScroll: 1
     };
     return (
-        <section className='a-la-une border flex justify-evenly items-center h-full '>
-            <div className='border w-8/12 bg-black h-[450px] rounded-xl'>
+        <section className='a-la-une  flex justify-evenly items-center h-full '>
+            <div className=' w-8/12 bg-black h-[450px] rounded-xl'>
                 <Slider {...settings} >
                     <div className=''>
                         <div className=''>
@@ -26,7 +26,7 @@ const AlaUne = () => {
                     </div>
                 </Slider>
             </div>
-            <div className='filtre w-2/12 border rounded-xl bg-white h-[450px]'></div>
+            <div className='filtre w-2/12  rounded-xl bg-white h-[450px]'></div>
         </section>
     );
 };
