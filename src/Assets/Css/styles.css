@@ -2,7 +2,7 @@ form{
     display: flex;
     direction: column;
 }
-span{
+.link{
     color: #065BDb;
 }
 nav{

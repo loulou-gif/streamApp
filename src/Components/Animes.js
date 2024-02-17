@@ -7,7 +7,7 @@ const Animes = () => {
         <section className='box-anime flex justify-center items-center'>
           <div className='flex w-8/12 flex-wrap justify-evenly items-center'>
           {Miniatures.map((d) => (
-             <div key={d.id} className='mini-box rounded-lg  h-[300px] w-[250px]  cursor-pointer' style={{
+             <div key={d.id} className='mini-box rounded-lg  h-[300px] w-[250px] mb-10 cursor-pointer' style={{
                 backgroundImage:`url(${d.image})`,
                 backgroundSize:'cover',
                 backgroundRepeat:'no-repeat',
