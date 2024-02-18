@@ -1,5 +1,6 @@
 import React from 'react';
 import { Miniatures } from '../Data/Miniatures';
+import { Link } from 'react-router-dom';
 
 
 const Animes = () => {
@@ -15,11 +16,14 @@ const Animes = () => {
                 // height:'35vh'
             }}>
             {/* <div className='overlay'></div> */}
-             <div className='title w-full font-bold flex rounded-b-lg text-white bg-blue-900 mt-72 justify-evenly'>
-                 <p>{d.name} </p>
-                 <p>{d.licence} </p>
-                 <p>EP: {d.episode} </p>
-             </div>
+            <Link to={d.link}>
+                <div className='title w-full font-bold flex rounded-b-lg text-white bg-blue-900 mt-72 justify-evenly'>
+                    <p>{d.name} </p>
+                    <p>{d.licence} </p>
+                    <p>EP: {d.episode} </p>
+                </div>
+            </Link>
+             
          </div> 
            ))}
           </div>
