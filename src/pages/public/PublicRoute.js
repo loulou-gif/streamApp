@@ -8,10 +8,10 @@ const PublicRoute = () => {
         <Routes>
             <Route element={<Layout/> }>
                 <Route index element={<Index/>} />
-                <Route path='/inscription' element={<Inscription/>}/>
-                <Route path='/connexion' element={<Connexion/>} />
-                <Route path='/index' element={<Index/>} />
-                <Route path='/streams' element={<Streams/>} />
+                <Route path='inscription' element={<Inscription/>}/>
+                <Route path='connexion' element={<Connexion/>} />
+                <Route path='index' element={<Index/>} />
+                <Route path='streams' element={<Streams/>} />
             </Route>
         </Routes> 
     );

@@ -4,7 +4,7 @@ import { Fictif } from '../Data/FictifComments';
 const Comments = () => {
     return (
         <section className='comments w-full h-[500px] flex justify-center items-center '>
-            <div className='text bg-white w-8/12 h-[450px] '>
+            <div className='text bg-white w-8/12 pb-5 '>
                 <div className='h-10 bg-slate-400 flex justify-center items-center'>
                     <h3 className='text-white font-bold'>COMMENTAIRES</h3>
                 </div>
