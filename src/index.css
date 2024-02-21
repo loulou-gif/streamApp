@@ -3,9 +3,5 @@
 @tailwind utilities;
 
 body{
-    background-color: #D6D7D8;
-}
-.slick-slide > div {
-    margin: 0 10px;
-    box-shadow: black;
+    background-color: #f7f7f7;
 }
