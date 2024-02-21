@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '../../Components/Navbar';
 import Details from '../../Components/Details';
 import Video from '../../Components/Video';
-import Comments from '../../Components/Comments';
+// import Comments from '../../Components/Comments';
 import Footer from '../../Components/Footer';
 import Subjection from '../../Components/Subjections';
 
@@ -13,7 +13,7 @@ const Streams = () => {
             <Details/>
             <Video/>
             <Subjection/>
-            <Comments/>
+            {/* <Comments/> */}
             <Footer/>
         </section>
     );
