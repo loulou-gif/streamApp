@@ -1,5 +1,7 @@
 import React from 'react';
 import Slider from "react-slick"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { Slide } from '../Data/Slide';
 
 const AlaUne = () => {
@@ -19,7 +21,7 @@ const AlaUne = () => {
                      {Slide.map((d) => (
                     <div className="hover:shadow-1xl m-5 w-[800px] h-[430px] rounded-xl">
                         <div className="">
-                            <div className="flex justify-center items-center w-[1150px] h-[430px] border-black  "style={{  
+                            <div className="flex justify-center items-center w-11/12 h-[430px] border-black  "style={{  
                                 backgroundImage: `url(${d.Img})`,
                                 backgroundSize: 'cover',
                                 backgroundRepeat: 'no-repeat',
