@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Animes = () => {
     return (
         <section className='box-anime flex justify-center items-center'>
-          <div className='flex w-10/12 flex-wrap justify-evenly items-center'>
+          <div className=' w-10/12 grid grid-cols-6 items-center'>
           {Miniatures.map((d) => (
              <div key={d.id} className='mini-box rounded-lg  h-[300px] w-[250px] mb-10 cursor-pointer' style={{
                 backgroundImage:`url(${d.image})`,

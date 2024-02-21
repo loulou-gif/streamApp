@@ -121,4 +121,244 @@ export const Miniatures = [
         episode:'01',
         link:'/streams'
     },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
+    {
+        id:15,
+        name:'Solo Leveling',
+        image:img,
+        licence:'VOSTFR',
+        episode:'01',
+        link:'/streams'
+    },
 ]
