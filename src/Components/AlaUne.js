@@ -8,10 +8,12 @@ const AlaUne = () => {
         infinite: true,
         speed: 600,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
     };
     return (
-        <section className='a-la-une  flex justify-evenly items-center h-full '>
+        <section className='a-la-une  flex justify-evenly items-end h-full '>
             <div className=' w-8/12  h-[450px] rounded-xl'>
                 <Slider {...settings} >
                      {Slide.map((d) => (
@@ -26,6 +28,11 @@ const AlaUne = () => {
                                 // width:'200vh',
                                 borderRadius:'10px',
                                 }}>
+                                
+                                <div className='text-left border text-white w-9/12 '>
+                                    <h1 className='text-3xl font-bold text-white text-left ' >Titre de l'anime</h1>
+                                    <p className='text-2xl '>Nouvelle anime diponible saison bla Nouvelle anime diponible saison bla Nouvelle  anime diponible saison bla Nouvelle anime diponible saison bla</p>
+                                </div>
                             
                             </div>
                         </div>

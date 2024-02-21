@@ -76,7 +76,9 @@ nav .btn-search{
 .synopsys{
     background-color: rgba(0, 0, 0, 0.5);
 }
-
+img{
+    position: center;
+}
 .bouton{
     position: relative;
     top: 150px
