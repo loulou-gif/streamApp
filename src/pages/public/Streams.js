@@ -4,6 +4,7 @@ import Details from '../../Components/Details';
 import Video from '../../Components/Video';
 import Comments from '../../Components/Comments';
 import Footer from '../../Components/Footer';
+import Subjection from '../../Components/Subjections';
 
 const Streams = () => {
     return (
@@ -11,6 +12,7 @@ const Streams = () => {
             <NavBar/>
             <Details/>
             <Video/>
+            <Subjection/>
             <Comments/>
             <Footer/>
         </section>
