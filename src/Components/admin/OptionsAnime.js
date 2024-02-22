@@ -3,6 +3,8 @@ import { Aminiatures } from '../../Data/Aminiatures';
 import { Link } from 'react-router-dom';
 import { GrUpdate } from "react-icons/gr";
 import { MdDeleteForever, MdAdd } from "react-icons/md";
+import { FaCirclePlay } from "react-icons/fa6";
+import '../../Assets/Css/styles.css'
 
 
 const Animes = () => {
@@ -24,10 +26,15 @@ const Animes = () => {
                         <div className='h-10 w-10 bg-green-500 text-white text-3xl rounded-xl cursor-pointer flex items-center justify-center'><MdAdd/></div>
                     </div>
                 <Link to={d.link}>
-                    <div className='title w-full font-bold flex rounded-b-lg text-white bg-blue-900 mt-72 justify-evenly'>
-                        <p>{d.name} </p>
-                        <p>{d.licence} </p>
-                        <p>EP: {d.episode} </p>
+                    <div className=''>
+                        <div className='play h-[275px] w-full flex items-center justify-center  duration-300 hover:duration-400 '>
+                            <FaCirclePlay className='icone-play text-4xl text-white'/>
+                        </div>
+                        <div className='title w-full font-bold flex rounded-b-lg  text-white bg-blue-900 justify-evenly'>
+                            <p>{d.name} </p>
+                            <p>{d.licence} </p>
+                            <p>EP: {d.episode} </p>
+                        </div>
                     </div>
                 </Link>
                 
