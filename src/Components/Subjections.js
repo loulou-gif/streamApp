@@ -2,12 +2,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React from 'react';
-import first from '../Assets/img/7825048.jpg'
-import second from '../Assets/img/7825048.jpg'
-import third from '../Assets/img/7825048.jpg'
-import fourth from '../Assets/img/7825048.jpg'
-import firth from '../Assets/img/7825048.jpg'
-// import sixth from '../Assets/Img/mokup6.jpg'
+import first from '../../Assets/img/7825048.jpg'
+import second from '../../Assets/img/7825048.jpg'
+import third from '../../Assets/img/7825048.jpg'
+import fourth from '../../Assets/img/7825048.jpg'
+import firth from '../../Assets/img/7825048.jpg'
+// import sixth from '../../Assets/Img/mokup6.jpg'
 
 const Subjection = () =>{
     const data = [

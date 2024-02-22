@@ -1,5 +1,5 @@
 import React from 'react';
-import { Miniatures } from '../Data/Miniatures';
+import { Miniatures } from '../../Data/Miniatures';
 import { Link } from 'react-router-dom';
 
 

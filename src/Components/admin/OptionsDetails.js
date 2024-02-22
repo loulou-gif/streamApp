@@ -1,6 +1,6 @@
 import React from 'react';
-import details from '../Assets/img/details.png'
-import derriere from '../Assets/img/vignette6.png'
+import details from '../../Assets/img/details.png'
+import derriere from '../../Assets/img/vignette6.png'
 
 const Deatails = () => {
     return (

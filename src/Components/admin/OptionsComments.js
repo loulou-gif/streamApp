@@ -1,5 +1,5 @@
 import React from 'react';
-import { Fictif } from '../Data/FictifComments';
+import { Fictif } from '../../Data/FictifComments';
 
 const Comments = () => {
     return (

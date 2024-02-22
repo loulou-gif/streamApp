@@ -1,8 +1,8 @@
 import React from 'react';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 // import { BiLike, BiDislike  } from "react-icons/bi";
-import vignette from '../Assets/img/vignette4.png'
-import deo from '../Assets/img/solo.qt'
+import vignette from '../../Assets/img/vignette4.png'
+import deo from '../../Assets/img/solo.qt'
 const Video = () => {
     return (
         <section className='flex justify-center items-center h-[850px]  '>
