@@ -63,7 +63,9 @@ const Subjection = () =>{
         infinite: true,
         speed: 600,
         slidesToShow: 6,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
       };
     return(
         <section id="real-sect" className=" ">
