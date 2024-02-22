@@ -1,7 +1,7 @@
 import React from 'react';
 // import Connexion from '../../Components/Connexion';
 
-const Home = () => {
+const Dashboard = () => {
     return (
         <div>
             
@@ -9,4 +9,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Dashboard;
