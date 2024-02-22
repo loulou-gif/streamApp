@@ -54,10 +54,10 @@ nav .btn-search{
     position: relative;
     top: 150px;
 }
-.title{
-    /* position: relative;
-    top: 225px */
-}
+/* .title{
+    position: relative;
+    top: 225px
+} */
 
 .mini-box:hover{
     background-color: rgba(0, 0, 0, 0.8);
