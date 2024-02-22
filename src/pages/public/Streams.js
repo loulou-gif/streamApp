@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../../Components/Navbar';
+import NavBar from '../../Components/public/Navbar';
 import Details from '../../Components/public/Details';
 import Video from '../../Components/Video';
 // import Comments from '../../Components/Comments';
