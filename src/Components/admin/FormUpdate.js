@@ -25,16 +25,16 @@ const FormUpdate = () => {
                         <input className='w-5/12 h-[60px] rounded-xl p-5 outline-blue-300' placeholder="Réalisations"/>
                     </div>
                     <div className='flex justify-evenly w-full'>
-                        <select className='w-5/12 h-[60px] rounded-xl p-5 outline-blue-300' placeholder="Durée">
-                            <option selected>Durée</option>
-                            <option >24 minutes</option>
-                            <option >50 minutes</option>
+                    <select className='w-5/12 h-[60px] rounded-xl p-5 outline-blue-300' defaultValue="Durée">
+                            <option value="duréé" >Durée</option>
+                            <option value="">24 minutes</option>
+                            <option value="">50 minutes</option>
                         </select>
-                        <select className='w-5/12 h-[60px] rounded-xl p-5 outline-blue-300' placeholder="Durée">
-                            <option selected>Genre</option>
-                            <option >ISEKAI</option>
-                            <option >AVENTURE</option>
-                            <option >EICHII</option>
+                        <select className='w-5/12 h-[60px] rounded-xl p-5 outline-blue-300' defaultValue="Genre">
+                            <option value="Genre" >Genre</option>
+                            <option value='' >ISEKAI</option>
+                            <option value='' >AVENTURE</option>
+                            <option value='' >EICHII</option>
                         </select>
                     </div>
                 </form>
@@ -52,16 +52,16 @@ const FormUpdate = () => {
                 <form className='w-7/12 flex-col flex justify-evenly h-full '>
                     <div className='flex justify-evenly w-full'>
                         <textarea className='w-5/12 h-[120px] rounded-xl p-5 outline-blue-300' placeholder="Synopsys"></textarea>
-                        <select className='w-5/12 h-[60px] rounded-xl p-5 outline-blue-300' >
-                            <option selected>Licence</option>
+                        <select className='w-5/12 h-[60px] rounded-xl p-5 outline-blue-300' defaultValue='licence' >
+                            <option value="licence">Licence</option>
                             <option >VOSTFR</option>
                             <option >VF</option>
                             <option >VO</option>
                         </select>
                     </div>
                     <div className='flex justify-evenly w-full'>
-                        <select className='w-5/12 h-[60px] rounded-xl p-5 outline-blue-300' placeholder="Durée">
-                            <option selected>Episode</option>
+                        <select className='w-5/12 h-[60px] rounded-xl p-5 outline-blue-300' defaultValue='Episode'>
+                            <option value='Episode'>Episode</option>
                             <option >Episode 01</option>
                             <option >Episode 02</option>
                             <option >Episode 03</option>
@@ -87,8 +87,8 @@ const FormUpdate = () => {
                             <option >Episode 23</option>
                             <option >Episode 24</option>
                         </select>
-                        <select className='w-5/12 h-[60px] rounded-xl p-5 outline-blue-300' >
-                            <option selected>Type</option>
+                        <select className='w-5/12 h-[60px] rounded-xl p-5 outline-blue-300' defaultValue='type'>
+                            <option value="type">Type</option>
                             <option >Long métrage</option>
                             <option >Court métrage</option>
                             <option >Série</option>

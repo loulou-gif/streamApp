@@ -22,7 +22,7 @@ const AlaUne = () => {
                 
                 <Slider {...settings} >
                      {Slide.map((d) => (
-                    <div className="hover:shadow-1xl m-5 w-[800px] h-[430px] rounded-xl">
+                    <div key={d.id} className="hover:shadow-1xl m-5 w-[800px] h-[430px] rounded-xl">
                         <div className='flex justify-evenly -mb-16 w-2/12'>
                             <div className='h-10 w-10 bg-red-500 duration-150 hover:bg-red-800 text-white text-3xl cursor-pointer rounded-xl flex items-center justify-center'><MdDeleteForever/> </div>
                             <div className='h-10 w-10 bg-blue-500 duration-150 hover:bg-blue-800 text-white text-2xl rounded-xl cursor-pointer flex items-center justify-center'><GrUpdate/></div>
