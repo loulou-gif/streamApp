@@ -26,7 +26,7 @@ const AlaUne = () => {
                         <div className='flex justify-evenly -mb-16 w-2/12'>
                             <div className='h-10 w-10 bg-red-500 duration-150 hover:bg-red-800 text-white text-3xl cursor-pointer rounded-xl flex items-center justify-center'><MdDeleteForever/> </div>
                             <div className='h-10 w-10 bg-blue-500 duration-150 hover:bg-blue-800 text-white text-2xl rounded-xl cursor-pointer flex items-center justify-center'><GrUpdate/></div>
-                            <div className='h-10 w-10 bg-green-500 duration-150 hover:bg-green-800 text-white text-3xl rounded-xl cursor-pointer flex items-center justify-center'><MdAdd/></div>
+                            <div className='h-10 w-10 bg-green-500 duration-150 hover:bg-green-800 text-white text-3xl rounded-xl cursor-pointer flex items-center justify-center'><input type='file' className='absolute w-10 rounded-xl opacity-0 ' /><MdAdd/></div>
                         </div>
                         <div className="">
                             <div className="flex justify-center items-center w-11/12 h-[430px]   "style={{  

@@ -10,7 +10,7 @@ const AdminRouteur = () => {
             <Route element={<AdminLayout/>}>
                 <Route path='dashboard' element={<Dashboard/>} />
                 <Route path='edit' element={<EditStreams/>} />                
-                <Route path='update' element={<Update/>} />                
+                <Route path='update/:id' element={<Update/>} />                
                 <Route path='admin-stream' element={<AStream/>} />                
             </Route> 
         </Routes>
