@@ -7,6 +7,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -15,6 +16,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -23,6 +25,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -31,6 +34,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -39,6 +43,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -47,6 +52,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -55,6 +61,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -63,6 +70,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -71,6 +79,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -79,6 +88,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -87,6 +97,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -95,6 +106,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -103,6 +115,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -111,6 +124,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -119,6 +133,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -127,6 +142,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -135,6 +151,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -143,6 +160,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -151,6 +169,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -159,6 +178,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -167,6 +187,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -175,6 +196,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -183,6 +205,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -191,6 +214,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -199,6 +223,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -207,6 +232,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -215,6 +241,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -223,6 +250,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -231,6 +259,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -239,6 +268,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -247,6 +277,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -255,6 +286,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -263,6 +295,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -271,6 +304,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -279,6 +313,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -287,6 +322,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -295,6 +331,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -303,6 +340,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -311,6 +349,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -319,6 +358,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -327,6 +367,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -335,6 +376,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -343,6 +385,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -351,6 +394,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
     {
@@ -359,6 +403,7 @@ export const Aminiatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/admin/admin-stream'
     },
 ]

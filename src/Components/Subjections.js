@@ -7,6 +7,8 @@ import second from '../Assets/img/7825048.jpg'
 import third from '../Assets/img/7825048.jpg'
 import fourth from '../Assets/img/7825048.jpg'
 import firth from '../Assets/img/7825048.jpg'
+import { Link } from 'react-router-dom';
+import { FaCirclePlay } from "react-icons/fa6";
 // import sixth from '../Assets/Img/mokup6.jpg'
 
 const Subjection = () =>{
@@ -85,11 +87,18 @@ const Subjection = () =>{
                                 width:'25vh',
                                 borderRadius:'10px'
                                 }}>
-                               <div className='title w-full font-bold flex rounded-b-lg text-white bg-blue-900 mt-72 justify-evenly'>
-                                    <p>{d.name} </p>
-                                    <p>{d.licence} </p>
-                                    <p>EP: {d.episode} </p>
-                                </div> 
+                                <Link to={d.link}>
+                                    <div className=''>
+                                        <div className='play h-[220px] w-[25vh] flex items-center justify-center  duration-300 hover:duration-400 '>
+                                            <FaCirclePlay className='icone-play text-4xl text-white'/>
+                                        </div>
+                                        <div className='title w-full font-bold flex rounded-b-lg  text-white bg-blue-900 justify-evenly'>
+                                            <p style={{ fontSize:'16px'}}>SAISON:{d.saison} </p>
+                                            <p style={{ fontSize:'16px'}}>{d.licence} </p>
+                                            <p style={{ fontSize:'16px'}}>EP: {d.episode} </p>
+                                        </div>
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                     </div>                

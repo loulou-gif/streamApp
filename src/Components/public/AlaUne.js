@@ -21,7 +21,7 @@ const AlaUne = () => {
                      {Slide.map((d) => (
                     <div className="hover:shadow-1xl m-5 w-[800px] h-[430px] rounded-xl">
                         <div className="">
-                            <div className="flex justify-center items-center w-11/12 h-[430px] border-black  "style={{  
+                            <div className="flex justify-center items-center w-[98%] h-[430px] border-black  "style={{  
                                 backgroundImage: `url(${d.Img})`,
                                 backgroundSize: 'cover',
                                 backgroundRepeat: 'no-repeat',
@@ -31,7 +31,7 @@ const AlaUne = () => {
                                 borderRadius:'10px',
                                 }}>
                                 
-                                <div className='text-left border text-white w-9/12 '>
+                                <div className='text-left  text-white w-9/12 '>
                                     <h1 className='text-3xl font-bold text-white text-left ' >Titre de l'anime</h1>
                                     <p className='text-2xl '>Nouvelle anime diponible saison bla Nouvelle anime diponible saison bla Nouvelle  anime diponible saison bla Nouvelle anime diponible saison bla</p>
                                 </div>

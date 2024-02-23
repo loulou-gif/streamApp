@@ -10,9 +10,9 @@ import '../../Assets/Css/styles.css'
 const Animes = () => {
     return (
         <section className='box-anime flex justify-center items-center'>
-          <div className=' w-10/12 border grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 items-center'>
+          <div className=' w-8/12  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 items-center'>
             {Aminiatures.map((d) => (
-                <div key={d.id} className='mini-box rounded-lg  h-[300px] w-[250px] mb-10 cursor-pointer' style={{
+                <div key={d.id} className='mini-box rounded-lg  h-[300px] w-[200px] mb-10 cursor-pointer' style={{
                     backgroundImage:`url(${d.image})`,
                     backgroundSize:'cover',
                     backgroundRepeat:'no-repeat',
@@ -20,10 +20,10 @@ const Animes = () => {
                     // height:'35vh'
                 }}>
                 {/* <div className='overlay'></div> */}
-                    <div className='flex justify-evenly -mb-10 w-full'>
-                        <div className='h-10 w-10 bg-red-500 text-white text-3xl cursor-pointer rounded-xl flex items-center justify-center'><MdDeleteForever/> </div>
-                        <div className='h-10 w-10 bg-blue-500 text-white text-2xl rounded-xl cursor-pointer flex items-center justify-center'><GrUpdate/></div>
-                        <div className='h-10 w-10 bg-green-500 text-white text-3xl rounded-xl cursor-pointer flex items-center justify-center'><MdAdd/></div>
+                    <div className='flex justify-evenly  -mb-10 w-full'>
+                        <div className='h-10 w-10 bg-red-500 duration-150 hover:bg-red-800 text-white text-3xl cursor-pointer rounded-xl flex items-center justify-center'><MdDeleteForever/> </div>
+                        <div className='h-10 w-10 bg-blue-500 duration-150 hover:bg-blue-800 text-white text-2xl rounded-xl cursor-pointer flex items-center justify-center'><GrUpdate/></div>
+                        <div className='h-10 w-10 bg-green-500 duration-150 hover:bg-green-800 text-white text-3xl rounded-xl cursor-pointer flex items-center justify-center'><MdAdd/></div>
                     </div>
                 <Link to={d.link}>
                     <div className=''>
@@ -31,9 +31,9 @@ const Animes = () => {
                             <FaCirclePlay className='icone-play text-4xl text-white'/>
                         </div>
                         <div className='title w-full font-bold flex rounded-b-lg  text-white bg-blue-900 justify-evenly'>
-                            <p>{d.name} </p>
-                            <p>{d.licence} </p>
-                            <p>EP: {d.episode} </p>
+                            <p style={{ fontSize:'16px'}}>SAISON:{d.saison} </p>
+                            <p style={{ fontSize:'16px'}}>{d.licence} </p>
+                            <p style={{ fontSize:'16px'}}>EP: {d.episode} </p>
                         </div>
                     </div>
                 </Link>

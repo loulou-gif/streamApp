@@ -24,12 +24,12 @@ const AlaUne = () => {
                      {Slide.map((d) => (
                     <div className="hover:shadow-1xl m-5 w-[800px] h-[430px] rounded-xl">
                         <div className='flex justify-evenly -mb-16 w-2/12'>
-                            <div className='h-10 w-10 bg-red-500 text-white text-3xl cursor-pointer rounded-xl flex items-center justify-center'><MdDeleteForever/> </div>
-                            <div className='h-10 w-10 bg-blue-500 text-white text-2xl rounded-xl cursor-pointer flex items-center justify-center'><GrUpdate/></div>
-                            <div className='h-10 w-10 bg-green-500 text-white text-3xl rounded-xl cursor-pointer flex items-center justify-center'><MdAdd/></div>
+                            <div className='h-10 w-10 bg-red-500 duration-150 hover:bg-red-800 text-white text-3xl cursor-pointer rounded-xl flex items-center justify-center'><MdDeleteForever/> </div>
+                            <div className='h-10 w-10 bg-blue-500 duration-150 hover:bg-blue-800 text-white text-2xl rounded-xl cursor-pointer flex items-center justify-center'><GrUpdate/></div>
+                            <div className='h-10 w-10 bg-green-500 duration-150 hover:bg-green-800 text-white text-3xl rounded-xl cursor-pointer flex items-center justify-center'><MdAdd/></div>
                         </div>
                         <div className="">
-                            <div className="flex justify-center items-center w-11/12 h-[430px] border-black  "style={{  
+                            <div className="flex justify-center items-center w-11/12 h-[430px]   "style={{  
                                 backgroundImage: `url(${d.Img})`,
                                 backgroundSize: 'cover',
                                 backgroundRepeat: 'no-repeat',
@@ -39,7 +39,7 @@ const AlaUne = () => {
                                 borderRadius:'10px',
                                 }}>
                                 
-                                <div className='text-left border text-white w-9/12 '>
+                                <div className='text-left  text-white w-9/12 '>
                                     <h1 className='text-3xl font-bold text-white text-left ' >Titre de l'anime</h1>
                                     <p className='text-2xl '>Nouvelle anime diponible saison bla Nouvelle anime diponible saison bla Nouvelle  anime diponible saison bla Nouvelle anime diponible saison bla</p>
                                 </div>

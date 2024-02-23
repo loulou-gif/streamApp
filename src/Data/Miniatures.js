@@ -7,6 +7,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -15,6 +16,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -23,6 +25,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -31,6 +34,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -39,6 +43,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -47,6 +52,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -55,6 +61,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -63,6 +70,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -71,6 +79,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -79,6 +88,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -87,6 +97,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -95,6 +106,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -103,6 +115,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -111,6 +124,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -119,6 +133,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -127,6 +142,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -135,6 +151,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -143,6 +160,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -151,6 +169,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -159,6 +178,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -167,6 +187,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -175,6 +196,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -183,6 +205,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -191,6 +214,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -199,6 +223,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -207,6 +232,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -215,6 +241,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -223,6 +250,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -231,6 +259,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -239,6 +268,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -247,6 +277,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -255,6 +286,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -263,6 +295,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -271,6 +304,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -279,6 +313,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -287,6 +322,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -295,6 +331,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -303,6 +340,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -311,6 +349,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -319,6 +358,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -327,6 +367,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -335,6 +376,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -343,6 +385,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -351,6 +394,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
     {
@@ -359,6 +403,7 @@ export const Miniatures = [
         image:img,
         licence:'VOSTFR',
         episode:'01',
+        saison:'01',
         link:'/streams'
     },
 ]
