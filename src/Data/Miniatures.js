@@ -137,7 +137,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:16,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -146,7 +146,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:17,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -155,7 +155,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:18,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -164,7 +164,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:19,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -173,7 +173,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:20,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -182,7 +182,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:21,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -191,7 +191,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:22,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -200,7 +200,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:23,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -209,7 +209,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:24,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -218,7 +218,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:25,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -227,7 +227,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:26,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -236,7 +236,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:27,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -245,7 +245,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:28,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -254,7 +254,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:29,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -263,7 +263,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:30,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -272,7 +272,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:31,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -281,7 +281,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:32,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -290,7 +290,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:33,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -299,7 +299,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:34,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -308,7 +308,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:35,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -317,7 +317,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:36,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -326,7 +326,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:37,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -335,7 +335,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:38,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -344,7 +344,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:39,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -353,7 +353,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:40,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -362,7 +362,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:41,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -371,7 +371,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:42,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -380,7 +380,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:43,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -389,7 +389,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:44,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',
@@ -398,7 +398,7 @@ export const Miniatures = [
         link:'/streams'
     },
     {
-        id:15,
+        id:45,
         name:'Solo Leveling',
         image:img,
         licence:'VOSTFR',

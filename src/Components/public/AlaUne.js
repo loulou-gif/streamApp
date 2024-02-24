@@ -19,7 +19,7 @@ const AlaUne = () => {
             <div className=' w-8/12  h-[450px] rounded-xl'>
                 <Slider {...settings} >
                      {Slide.map((d) => (
-                    <div className="hover:shadow-1xl m-5 w-[800px] h-[430px] rounded-xl">
+                    <div key={d.id} className="hover:shadow-1xl m-5 w-[800px] h-[430px] rounded-xl">
                         <div className="">
                             <div className="flex justify-center items-center w-[98%] h-[430px] border-black  "style={{  
                                 backgroundImage: `url(${d.Img})`,
