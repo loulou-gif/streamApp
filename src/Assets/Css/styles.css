@@ -62,7 +62,9 @@ nav .btn-search{
 /* .mini-box:hover{
     background-color: rgba(0, 0, 0, 0.8);
 } */
-
+input{
+    outline-color: rgba(9, 114, 205, 0.29);
+}
 .overlay {
     position: absolute;
     top: 0;

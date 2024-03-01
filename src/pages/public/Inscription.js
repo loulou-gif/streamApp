@@ -48,7 +48,7 @@ const Inscription = () => {
                     <input type='text' name='username' className='mt-5 pl-5 p-2 h-[60px] rounded-xl' placeholder="Nom d'utilisateur" onChange={handleInputChange}/>
                     <input type='email' name='email' className='mt-5 mb-5 pl-5 p-2 h-[60px] rounded-xl' placeholder="Email" onChange={handleInputChange}/>
                     <input type='password' name='password' className='h-[60px] w-[342]  mb-5 pl-5 p-2 rounded-xl' placeholder='Mot de passe' onChange={handleInputChange}/>
-                    <button className='boutton bg-blue-700 text-white h-[60px] rounded-xl w-[342px] ' >S'inscrire</button>
+                    <button className='boutton bg-blue-700 text-white h-[60px] rounded-xl w-[342] duration-150 hover:bg-blue-900' >S'INSCRIRE</button>
                 </form>
             </div>
         </div>

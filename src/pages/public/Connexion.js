@@ -5,7 +5,7 @@ import img from '../../Assets/img/Rectangle 133.png'
 import axios from 'axios';
 
 const Connexion = () => {
-    const [sign, setSign] = useState({
+    const [login, setLogin] = useState({
         username:"",
         email:"",
         password:"",
@@ -13,17 +13,17 @@ const Connexion = () => {
 
     const handleInputChange = (event) =>{
         const {name,value} = event.target;
-        setSign({ ...sign, [name]: value});
+        setLogin({ ...login, [name]: value});
     }
 
     const handleSubmit = (event) =>{
         event.preventDefault();
 
-        axios.post("http://localhost:5000/user", sign)
+        axios.post("http://localhost:5000/user", login)
         .then(response =>{
             console.log('user create succesfully', response.data);
-            console.log(sign)
-            setSign({
+            console.log(login)
+            setLogin({
               username:"",
               email:"",
               password:"",
@@ -32,7 +32,7 @@ const Connexion = () => {
         })
         .catch(error => {
             console.error("ERROR: Can't create user", error)
-            console.log(sign)
+            console.log(login)
         })
     }
     
@@ -45,9 +45,9 @@ const Connexion = () => {
                     <div className='circle rounded-full  h-[150px] w-[150px] bg-blue-300'></div>
                     <form className='connexion-form flex-col  m-10 w-[450px]' onSubmit={handleSubmit}>
                     <h3>Pas de compte?<Link to='/inscription' className='link'> S'inscrire</Link> </h3>
-                        <input type='text' className='mt-5 mb-5 pl-5 p-2 h-[60px] rounded-xl' placeholder="Nom d'utilisateur" onChange={handleInputChange}/>
-                        <input type='password' className=' h-[60px] w-[342]  mb-5 pl-5 p-2 rounded-xl' placeholder='Mot de passe' />
-                        <button className='boutton bg-blue-700 text-white rounded-xl h-[60px] w-[342] ' >Se connecter</button>
+                        <input type='text' className='mt-5 mb-5 pl-5 p- h-[60px] rounded-xl' placeholder="Nom d'utilisateur" onChange={handleInputChange}/>
+                        <input type='password' className=' h-[60px] w-[342  mb-5 pl-5 p-2 rounded-xl' placeholder='Mot de passe' />
+                        <button className='boutton bg-blue-700 text-white rounded-xl h-[60px] w-[342] duration-150 hover:bg-blue-900 ' >SE CONNECTER</button>
                     </form>
                 </div>
             </div>
