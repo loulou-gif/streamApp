@@ -14,6 +14,7 @@ import { FaCirclePlay } from "react-icons/fa6";
 const Subjection = () =>{
     const data = [
         {
+            id: 1,
             image: first,
             Link:"",
             licence:'VOSTFR',
@@ -23,6 +24,7 @@ const Subjection = () =>{
             
         },
         {
+            id: 2,
             image: second,
             Link:"",
             licence:'VOSTFR',
@@ -31,6 +33,7 @@ const Subjection = () =>{
             name:'Solo Leveling',
         },
         {
+            id: 3,
             image: third, 
             Link:"",
             licence:'VOSTFR',
@@ -39,6 +42,7 @@ const Subjection = () =>{
             name:'Solo Leveling',
         },
         {
+            id: 4,
             image: fourth,
             Link:"",
             licence:'VOSTFR',
@@ -47,6 +51,7 @@ const Subjection = () =>{
             name:'Solo Leveling',
         },
         {
+            id: 5,
             image:firth,
             Link:"titre5",
             licence:'VOSTFR',
@@ -55,6 +60,7 @@ const Subjection = () =>{
             name:'Solo Leveling',
         },
         // {
+            
         //     image:sixth,
         //     Link:"titre6",
             
@@ -76,7 +82,7 @@ const Subjection = () =>{
                 <div className="w-9/12 h-2/5 bg-white ">
                 <Slider {...settings}>
                     {data.map((d) => (
-                    <div className="hover:shadow-1xl m-5 h-[290px] rounded-xl">
+                    <div key={d.id} className="hover:shadow-1xl m-5 h-[290px] rounded-xl">
                         <div className="">
                             <div className="flex justify-center items-center border-black "style={{  
                                 backgroundImage: `url(${d.image})`,

@@ -1,12 +1,11 @@
 import React from 'react';
 import { FaCirclePlay } from "react-icons/fa6";
 import { MdDeleteForever, MdAdd } from "react-icons/md";
-import { useParams } from 'react-router-dom';
+// import { useParams } from 'react-router-dom';
 import '../../Assets/Css/styles.css'
 
 const FormEdit = () => {
-    const param = useParams()
-    console.log(param)
+
     return (
         <div className=' mt-16 '>
             <div className='flex mt-10  h-[500px] '>
