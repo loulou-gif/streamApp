@@ -22,7 +22,7 @@ const AlaUne = () => {
         // Utiliser une fonction asynchrone pour effectuer la requête GET
         const fetchNews = async () => {
             try {
-                const response = await axios.get('http://127.0.0.1:8000/News/');
+                const response = await axios.get('http://127.0.0.1:8000/news/');
                 setNews(response.data); // Mettre à jour l'état avec les données récupérées
                 console.log('Tout est ok', response);
             } catch (error) {
