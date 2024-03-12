@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 // import { Aminiatures } from '../../Data/Aminiatures';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { GrUpdate } from "react-icons/gr";
 import { MdDeleteForever, MdAdd } from "react-icons/md";
 import { FaCirclePlay } from "react-icons/fa6";
@@ -24,21 +24,21 @@ const Animes = () => {
     useEffect(() => {
         getData()
     }, [])
-    let navigate = useNavigate()
+    // let navigate = useNavigate()
     
-    const UpdateUrl = (id) => {
-        navigate("../update/"+id)
-    }
-    const EditUrl = () => {
-        navigate("../edit")
-    }
+    // const UpdateUrl = (id) => {
+    //     navigate("../update/"+id)
+    // }
+    // const EditUrl = () => {
+    //     navigate("../edit")
+    // }
 
     return (
         <section className='box-anime flex justify-center items-center'>
           <div className=' w-8/12  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 items-center'>
             {data.map((d) => (
                 <div key={d.id} className='mini-box rounded-lg  h-[300px] w-[200px] mb-10 cursor-pointer' style={{
-                    backgroundImage:`url(${d.poster})`,
+                    backgroundImage:`url(${d.banner})`,
                     backgroundSize:'cover',
                     backgroundRepeat:'no-repeat',
                     backgroundPosition:'center',
@@ -47,8 +47,8 @@ const Animes = () => {
                 {/* <div className='overlay'></div> */}
                     <div className='flex justify-evenly  -mb-10 w-full'>
                         <button className='h-10 w-10 bg-red-500 duration-150 hover:bg-red-800 text-white text-3xl cursor-pointer rounded-xl flex items-center justify-center'><MdDeleteForever/> </button>
-                        <button onClick={(id) => UpdateUrl(id)} className='h-10 w-10 bg-blue-500 duration-150 hover:bg-blue-800 text-white text-2xl rounded-xl cursor-pointer flex items-center justify-center'><GrUpdate/></button>
-                        <button onClick={EditUrl} className='h-10 w-10 bg-green-500 duration-150 hover:bg-green-800 text-white text-3xl rounded-xl cursor-pointer flex items-center justify-center'><MdAdd/></button>
+                        <Link to={`../update/${d.id}`} className='h-10 w-10 bg-blue-500 duration-150 hover:bg-blue-800 text-white text-2xl rounded-xl cursor-pointer flex items-center justify-center'><GrUpdate/></Link>
+                        <Link to={`../edit`}  className='h-10 w-10 bg-green-500 duration-150 hover:bg-green-800 text-white text-3xl rounded-xl cursor-pointer flex items-center justify-center'><MdAdd/></Link>
                     </div>
                 <Link to={`../admin-stream/${d.id}`}>
                     <div className=''>

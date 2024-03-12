@@ -40,7 +40,7 @@ const AlaUne = () => {
                      {news.map((d) => ( // Utiliser le tableau news pour afficher les nouvelles
                     <div key={d.id} className="hover:shadow-1xl m-5 w-[800px] h-[430px] rounded-xl">
                         <div className="">
-                            <div className="flex justify-center items-center w-[98%] h-[430px] border-black  "style={{  
+                            <div className="flex justify-center items-center w-[98%] h-[430px] border-black   bg-cover  transition-opacity duration-1000 hover:opacity-100  "style={{  
                                 backgroundImage: `url(${d.image})`,
                                 backgroundSize: 'cover',
                                 backgroundRepeat: 'no-repeat',
