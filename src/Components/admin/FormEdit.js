@@ -8,17 +8,17 @@ const FormEdit = () => {
 
     return (
         <div className=' mt-16 '>
-            <div className='flex mt-10  h-[500px] '>
+            <div className='flex mt-10  h-[300px] '>
                 <div className='w-5/12 h-full flex flex-col items-center justify-evenly'>
-                    <div className='w-6/12 h-4/5  bg-gray-300'>
+                    <div className='w-5/12 h-4/5  bg-gray-300'>
                         <img alt='Banner' className=''/>
                     </div>
-                    <div className=' w-6/12 h-[15%] flex text-2xl text-white rounded-xl justify-center items-center bg-blue-600 duration-200 hover:duration-200 hover:bg-blue-800'>
+                    <div className=' w-5/12 h-[15%] flex text-2xl text-white rounded-xl justify-center items-center bg-blue-600 duration-200 hover:duration-200 hover:bg-blue-800'>
                         <input type='file' className='absolute  opacity-0 cursor-pointer' />
                         <span>Télécharger l'affiche</span>
                     </div>
                 </div>
-                <form className='w-7/12 flex-col flex justify-evenly h-full '>
+                <form className='w-6/12 flex-col flex justify-evenly h-full '>
                     <div className='flex justify-evenly w-full'>
                         <input className='w-5/12 h-[60px] rounded-xl p-5 outline-blue-300' placeholder="Nom de l'anime"/>
                         <input className='w-5/12 h-[60px] rounded-xl p-5 outline-blue-300' type='date'/>
@@ -42,17 +42,17 @@ const FormEdit = () => {
                     </div>
                 </form>
             </div>
-            <div className='flex mt-10  h-[350px] '>
+            <div className='flex mt-10  h-[300px] '>
                 <div className='w-5/12 h-full flex flex-col items-center justify-evenly'>
-                    <div className='w-8/12 h-2/5  bg-gray-300'>
+                    <div className='w-5/12 h-2/5  bg-gray-300'>
                         <img alt='poster' className='w-full'/>
                     </div>
-                    <div className=' w-8/12 h-1/5 flex text-2xl text-white rounded-xl justify-center items-center bg-green-600 duration-200 hover:duration-200 hover:bg-green-800'>
+                    <div className=' w-5/12 h-1/5 flex text-2xl text-white rounded-xl justify-center items-center bg-green-600 duration-200 hover:duration-200 hover:bg-green-800'>
                         <input type='file' className='absolute  opacity-0 cursor-pointer' />
                         <span>Télécharger la banner</span>
                     </div>
                 </div>
-                <form className='w-7/12 flex-col flex justify-evenly h-full '>
+                <form className='w-6/12 flex-col flex justify-evenly h-full '>
                     <div className='flex justify-evenly w-full'>
                         <textarea className='w-5/12 h-[120px] rounded-xl p-5 outline-blue-300' placeholder="Synopsys"></textarea>
                         <select className='w-5/12 h-[60px] rounded-xl p-5 outline-blue-300' defaultValue='licence' >
@@ -112,12 +112,12 @@ const FormEdit = () => {
                     </div> */}
                 </form>
             </div>
-            <div className='flex mt-10 h-[500px]'>
+            <div className='flex mt-10 h-[300px]'>
                 <div className='w-full h-full flex flex-col items-center justify-evenly'>
-                    <div className='w-8/12 h-4/5 flex items-center justify-center bg-black'>
+                    <div className='w-5/12 h-4/5 flex items-center justify-center bg-black'>
                         <FaCirclePlay className='icone-play text-6xl text-gray-400'><video alt='Banner' className='h-full w-full'></video></FaCirclePlay>
                     </div>
-                    <div className=' w-8/12 h-[15%] flex text-2xl text-white rounded-xl justify-center items-center bg-red-600 duration-200 hover:duration-200 hover:bg-red-800'>
+                    <div className=' w-5/12 h-[15%] flex text-2xl text-white rounded-xl justify-center items-center bg-red-600 duration-200 hover:duration-200 hover:bg-red-800'>
                         <input type='file' className='absolute  opacity-0 cursor-pointer' />
                         <span>Télécharger l'épisode</span>
                     </div>
@@ -125,11 +125,11 @@ const FormEdit = () => {
             </div>
             <div className='flex h-[100px]'>
                 <div className='w-full h-full flex  items-center justify-center'>
-                    <div className=' w-3/12 m-5 h-4/5 flex text-2xl text-white rounded-xl justify-center items-center bg-blue-600 duration-200 hover:duration-200 hover:bg-blue-800'>
+                    <div className=' w-2/12 m-5 h-3/5 flex text-2xl text-white rounded-xl justify-center items-center bg-blue-600 duration-200 hover:duration-200 hover:bg-blue-800'>
                         <input type='submit' className='absolute  opacity-0 cursor-pointer' />
                         <span className='flex mr-5'><MdAdd className='text-3xl'/> ENREGISTRER</span>
                     </div>
-                    <div className=' w-3/12 m-5 h-4/5 flex text-2xl text-white rounded-xl justify-center items-center bg-red-600 duration-200 hover:duration-200 hover:bg-red-800'>
+                    <div className=' w-2/12 m-5 h-3/5 flex text-2xl text-white rounded-xl justify-center items-center bg-red-600 duration-200 hover:duration-200 hover:bg-red-800'>
                         <input type='submit' className='absolute  opacity-0 cursor-pointer' />
                         <span className='flex mr-5'><MdDeleteForever className='text-3xl'/> ANNULER</span>
                     </div>
